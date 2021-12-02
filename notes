@@ -1,0 +1,41 @@
+let/var can change, const cannot.
+let name = 'Mosh'; // string literal
+let age = 30; // number literal
+let isApproved = false; // boolean literal
+let firstName = undefined;
+let selectedColor = null;
+//type of ells type of let/var
+let name = 'Mosh';
+let age = 30;
+let person = {
+    name: 'Mosh',
+    age: 30
+}
+
+//dot notation
+person.name = 'John';
+
+//bracket notation
+let selection = 'name';
+person['name'] = Mary
+
+console.log(person.name)
+
+    aray
+let selectedColors = ['red', 'blue'];
+console.log(selectedColors);
+selectedColors[2] = 1;
+array = data structure to present list of items
+
+    function
+let number = 1;
+//performing a task
+function greet(name) {  // name inside () only mean inside
+    console.log('Hello + name + lastName');
+}
+
+greet('John');
+
+greet('Mary');
+
+function = performs task
